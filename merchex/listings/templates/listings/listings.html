@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<head>
+    <title>listings</title>
+</head>
+
+<body>
+    <h1> listings !</h1>
+    <ul>
+        {% for listing in listings %}
+        {{ listing.title}},
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
